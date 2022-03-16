@@ -1,0 +1,28 @@
+
+*** Ćwiczenie nr 6 *** 
+
+W ramach tych ćwiczeń będą Państwo musieli zaproponować architekturę, zaimplementować, 
+wytrenować i przeprowadzić walidację sieci neuronowej do klasyfikacji ręcznie pisanych cyfr. 
+Zbiór danych do użycia: MNIST - http://yann.lecun.com/exdb/mnist/. 
+Należałoby uzyskane rezultaty porównań dla różnej liczby neuronów ukrytych (dosłownie kilka przypadków z uwagi na długi czas nauki sieci). 
+W raporcie warto opisać wygląd przykładowej sieci i przeprowadzić wstępną analizę zbioru danych. 
+Trzeba by pokazać później jakie przykłady ze zbioru MNIST zostały sklasyfikowane poprawnie a jakie nie 
+(dosłownie kilka obrazów np. że cyfry 1 i 7 są błędne albo że 2 jest wykrywane poprawnie). 
+Wszelkie ciekawe eksperymenty i wnioski będą dobrze widziane.
+
+
+Uwagi co do pracy: 
+
+- wykonują Państwo to zadanie w parach, dlatego na wstępie w raporcie należy wykazać kto wykonał jakie części zadania
+- rozwiązania niech przesyła do mnie tylko jedna osoba z zespołu
+- podobnie jak w poprzednich ćwiczeniach nie chcę otrzymywać od Państwa zbioru danych (zwłaszcza dla tego ćwiczenia)
+- zapewne na potrzebę propagacji wstecznej przyda się Państwu przypomnienie wiadomości ze stochastycznej spadku gradientu
+- sugerowałbym użyć bibliotekę numpy do reprezentacji danych
+- mogą Państwo w ramach ciekawości porównać wyniki uzyskane w ramach implementacji z pytorch albo keras/tensorflow 
+(brak tego nie będzie negatywnie oceniany, ale może wpłynąć pozytywnie na ocenę jeśli będą tylko drobne błędy. 
+Podstawą oceny za to ćwiczenie jest jednak wasza bazowa implementacja sieci neuronowej) 
+
+
+Bardziej interesuje mnie poprawność implementacji Państwa sieci (radzę nie przekombinować) niż jej precyzja klasyfikacji.
+Osobiście nie lubię sieci neuronowych, gdyż można zrobić wszystko dobrze i uzyskać słabe wyniki z powodu słabej nauki modelu, 
+więc mam świadomość, że Państwa rozwiązania nie muszą działać perfekcyjnie. 
